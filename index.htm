@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="formContainer">
+        <h3>Contact Managment System</h3>
+        <label for="nameInput">Name:</label><br>
+        <input type="text" id="nameInput" placeholder="Enter Full name"><br>
+        <label for="emailInput">Email:</label><br>
+        <input type="email" id="emailInput" placeholder="Enter valid email"><br>
+        <label for="numberInput">Mobile Number</label><br>
+        <input type="text" id="numberInput" placeholder="Enter mobile number"><br>
+        <label for="addressInput">City:</label><br>
+        <input type="text" id="addressInput" placeholder="Enter city"><br>
+        <button onclick="addData()">Add</button>
+ </div>
+
+ <table id="outputTable">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Mobile Number</th>
+        <th>City</th>
+        <th>Action</th>
+    </tr>
+ </table>
+       
+    <script src="index.js"></script>
+</body>
+</html>
